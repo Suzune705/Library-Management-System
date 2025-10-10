@@ -4,19 +4,22 @@
  */
 package com.library.model;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  *
  * @author laptop gigabyte
  */
-public class user {
+public class User {
     private int user_id;
     private String username ;
     private String password;
     private String role;
     
-    public user(){}
+    public User(){}
 
-    public user(int user_id, String username, String password, String role) {
+    public User(int user_id, String username, String password, String role) {
         this.user_id = user_id;
         this.username = username;
         this.password = password;
@@ -54,6 +57,5 @@ public class user {
     public void setRole(String role) {
         this.role = role;
     }
-    
     
 }
