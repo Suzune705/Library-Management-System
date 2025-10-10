@@ -5,72 +5,71 @@
 package com.library.model;
 
 
-public class borrowing {
-    private int borrowing_id;
-    private int user_id;
-    private int book_id;
-    private String borrow_date;
-    private String return_fdate;
+public class Borrowing {
+    private int borrowingID;
+    private int userID;
+    private int bookID;
+    private String borrowDate;
+    private String returnDate;
     private String status;
     
-    public borrowing (){}
+    public Borrowing (){}
 
-    public borrowing(int borrowing_id, int user_id, int book_id, String borrow_date, String return_fdate, String status) {
-        this.borrowing_id = borrowing_id;
-        this.user_id = user_id;
-        this.book_id = book_id;
-        this.borrow_date = borrow_date;
-        this.return_fdate = return_fdate;
+    public Borrowing(int borrowingID, int userID, int bookID, String borrowDate, String returnDate, String status) {
+        this.borrowingID = borrowingID;
+        this.userID = userID;
+        this.bookID = bookID;
+        this.borrowDate = borrowDate;
+        this.returnDate = returnDate;
         this.status = status;
     }
 
-    public int getBorrowing_id() {
-        return borrowing_id;
+    public int getBorrowingID() {
+        return borrowingID;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserID() {
+        return userID;
     }
 
-    public int getBook_id() {
-        return book_id;
+    public int getBookID() {
+        return bookID;
     }
 
-    public String getBorrow_date() {
-        return borrow_date;
+    public String getBorrowDate() {
+        return borrowDate;
     }
 
-    public String getReturn_fdate() {
-        return return_fdate;
+    public String getReturnDate() {
+        return returnDate;
     }
 
     public String getStatus() {
         return status;
     }
 
-    public void setBorrowing_id(int borrowing_id) {
-        this.borrowing_id = borrowing_id;
+    public void setBorrowingID(int borrowingID) {
+        this.borrowingID = borrowingID;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUserID(int userID) {
+        this.userID = userID;
     }
 
-    public void setBook_id(int book_id) {
-        this.book_id = book_id;
+    public void setBookID(int bookID) {
+        this.bookID = bookID;
     }
 
-    public void setBorrow_date(String borrow_date) {
-        this.borrow_date = borrow_date;
+    public void setBorrowDate(String borrowDate) {
+        this.borrowDate = borrowDate;
     }
 
-    public void setReturn_fdate(String return_fdate) {
-        this.return_fdate = return_fdate;
+    public void setReturnDate(String returnDate) {
+        this.returnDate = returnDate;
     }
 
     public void setStatus(String status) {
         this.status = status;
     }
-    
     
 }

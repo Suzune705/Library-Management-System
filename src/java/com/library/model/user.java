@@ -8,27 +8,35 @@ package com.library.model;
  *
  * @author laptop gigabyte
  */
-public class user {
-    private int user_id;
-    private String username ;
+public class User {
+    private int userID;
+    private String fullName;
+    private String account;
     private String password;
     private String role;
+    private String avatar;
     
-    public user(){}
+    public User(){}
 
-    public user(int user_id, String username, String password, String role) {
-        this.user_id = user_id;
-        this.username = username;
+    public User(int userID, String fullName, String account, String password, String role, String avatar) {
+        this.userID = userID;
+        this.fullName = fullName;
+        this.account = account;
         this.password = password;
         this.role = role;
+        this.avatar = avatar;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserID() {
+        return userID;
     }
 
-    public String getUsername() {
-        return username;
+    public String getFullName() {
+        return fullName;
+    }
+
+    public String getAccount() {
+        return account;
     }
 
     public String getPassword() {
@@ -39,12 +47,20 @@ public class user {
         return role;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public String getAvatar() {
+        return avatar;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserID(int userID) {
+        this.userID = userID;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
     }
 
     public void setPassword(String password) {
@@ -54,6 +70,11 @@ public class user {
     public void setRole(String role) {
         this.role = role;
     }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
     
     
+
 }

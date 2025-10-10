@@ -4,13 +4,13 @@
  */
 package com.library.dao;
 
-import com.library.model.user;
+import com.library.model.User;
 import java.sql.*;
 
 
 public class userDao {
 
-    private String jdbcURL = "jdbc:sqlserver://localhost:1433;databaseName=Employee;encrypt=false";
+    private String jdbcURL = "jdbc:sqlserver://localhost:1433;databaseName=Library_Management_System;encrypt=false";
     private String jdbcUsername = "sa";
     private String jdbcPassword = "123456789";
 
