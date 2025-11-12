@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.library.service;
+package com.library.util;
 
 
 
@@ -19,7 +19,7 @@ import java.util.Properties;
  *
  * @author hieuchu
  */
-public class MailService {
+public class MailTransfer {
 
     private static final String USERNAME = "hieuminh9873@gmail.com";
     private static final String PASSWORD = "qifs buxh anin erpa";
